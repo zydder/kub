@@ -5,8 +5,10 @@ metadata :
 spec :
   type : nodeport
   ports:
-    - targetport : 80
+    - targetPort : 80
       port : 80
-      nodeport : 30008
+      nodePort : 30008
   selector :
     name: first-pod
+
+  
