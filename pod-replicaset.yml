@@ -1,9 +1,9 @@
-apiVersion : v1
-kind: Pod
+apiVersion : apps/v1
+kind: ReplicaSet
 metadata: 
   name: pod-with-replicaset
 spec:
   containers:
-    - name : pod-replicaset 
+    - name : nginx 
       image : nginx
   replicas : 2
