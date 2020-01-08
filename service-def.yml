@@ -7,6 +7,6 @@ spec :
   ports:
     -targetport : 80
       port : 80
-      nodeport :30008
+      nodeport : 30008
   selector :
     name: first-pod
